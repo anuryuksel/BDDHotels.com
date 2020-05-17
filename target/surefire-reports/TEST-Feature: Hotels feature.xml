@@ -1,0 +1,585 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Feature: Hotels feature" time="0.082" tests="3" errors="3" skipped="0" failures="0">
+  <properties>
+    <property name="java.runtime.name" value="OpenJDK Runtime Environment"/>
+    <property name="java.vm.version" value="13.0.2+8"/>
+    <property name="sun.boot.library.path" value="/usr/local/Cellar/openjdk/13.0.2+8_2/libexec/openjdk.jdk/Contents/Home/lib"/>
+    <property name="maven.multiModuleProjectDirectory" value="/Users/anur/IdeaProjects/HotelsBDDCucumberFramework"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="java.vendor.url" value="https://openjdk.java.net/"/>
+    <property name="guice.disable.misplaced.annotation.check" value="true"/>
+    <property name="path.separator" value=":"/>
+    <property name="java.vm.name" value="OpenJDK 64-Bit Server VM"/>
+    <property name="user.country" value="US"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="user.dir" value="/Users/anur/IdeaProjects/HotelsBDDCucumberFramework"/>
+    <property name="java.vm.compressedOopsMode" value="Zero based"/>
+    <property name="java.runtime.version" value="13.0.2+8"/>
+    <property name="os.arch" value="x86_64"/>
+    <property name="java.io.tmpdir" value="/var/folders/87/grrj89md7n54667vy262gghm0000gn/T/"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="os.name" value="Mac OS X"/>
+    <property name="classworlds.conf" value="/usr/local/Cellar/maven/3.6.3_1/libexec/bin/m2.conf"/>
+    <property name="sun.jnu.encoding" value="UTF-8"/>
+    <property name="java.library.path" value="/Users/anur/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:."/>
+    <property name="maven.conf" value="/usr/local/Cellar/maven/3.6.3_1/libexec/conf"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="java.class.version" value="57.0"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="os.version" value="10.15.3"/>
+    <property name="library.jansi.path" value="/usr/local/Cellar/maven/3.6.3_1/libexec/lib/jansi-native"/>
+    <property name="http.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+    <property name="user.home" value="/Users/anur"/>
+    <property name="user.timezone" value="America/New_York"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="java.specification.version" value="13"/>
+    <property name="user.name" value="anur"/>
+    <property name="java.class.path" value="/usr/local/Cellar/maven/3.6.3_1/libexec/boot/plexus-classworlds-2.6.0.jar"/>
+    <property name="java.vm.specification.version" value="13"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher clean test"/>
+    <property name="java.home" value="/usr/local/Cellar/openjdk/13.0.2+8_2/libexec/openjdk.jdk/Contents/Home"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.vm.info" value="mixed mode, sharing"/>
+    <property name="java.version" value="13.0.2"/>
+    <property name="java.vendor" value="N/A"/>
+    <property name="maven.home" value="/usr/local/Cellar/maven/3.6.3_1/libexec"/>
+    <property name="file.separator" value="/"/>
+    <property name="java.version.date" value="2020-01-14"/>
+    <property name="java.vendor.url.bug" value="https://bugreport.java.com/bugreport/"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeBig"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="socksNonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+    <property name="ftp.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+  </properties>
+  <testcase name="Examples: " classname="Examples: " time="0.025">
+    <error message="javax/xml/bind/ValidationEventLocator" type="java.lang.NoClassDefFoundError">java.lang.NoClassDefFoundError: javax/xml/bind/ValidationEventLocator
+	at java.base/java.lang.ClassLoader.defineClass1(Native Method)
+	at java.base/java.lang.ClassLoader.defineClass(ClassLoader.java:1016)
+	at java.base/java.security.SecureClassLoader.defineClass(SecureClassLoader.java:151)
+	at java.base/jdk.internal.loader.BuiltinClassLoader.defineClass(BuiltinClassLoader.java:821)
+	at java.base/jdk.internal.loader.BuiltinClassLoader.findClassOnClassPathOrNull(BuiltinClassLoader.java:719)
+	at java.base/jdk.internal.loader.BuiltinClassLoader.loadClassOrNull(BuiltinClassLoader.java:642)
+	at java.base/jdk.internal.loader.BuiltinClassLoader.loadClass(BuiltinClassLoader.java:600)
+	at java.base/jdk.internal.loader.ClassLoaders$AppClassLoader.loadClass(ClassLoaders.java:178)
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:521)
+	at ru.yandex.qatools.allure.cucumberjvm.AllureRunListener.testStarted(AllureRunListener.java:259)
+	at org.junit.runner.notification.RunNotifier$3.notifyListener(RunNotifier.java:115)
+	at org.junit.runner.notification.RunNotifier$SafeNotifier.run(RunNotifier.java:61)
+	at org.junit.runner.notification.RunNotifier.fireTestStarted(RunNotifier.java:112)
+	at org.junit.internal.runners.model.EachTestNotifier.fireTestStarted(EachTestNotifier.java:43)
+	at cucumber.runtime.junit.JUnitReporter.result(JUnitReporter.java:95)
+	at cucumber.runtime.Runtime.runStep(Runtime.java:309)
+	at cucumber.runtime.model.StepContainer.runStep(StepContainer.java:44)
+	at cucumber.runtime.model.StepContainer.runSteps(StepContainer.java:39)
+	at cucumber.runtime.model.CucumberScenario.run(CucumberScenario.java:44)
+	at cucumber.runtime.junit.ExecutionUnitRunner.run(ExecutionUnitRunner.java:91)
+	at org.junit.runners.Suite.runChild(Suite.java:127)
+	at org.junit.runners.Suite.runChild(Suite.java:26)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:238)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:63)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:236)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:53)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:229)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:309)
+	at cucumber.runtime.junit.ExamplesRunner.run(ExamplesRunner.java:59)
+	at org.junit.runners.Suite.runChild(Suite.java:127)
+	at org.junit.runners.Suite.runChild(Suite.java:26)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:238)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:63)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:236)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:53)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:229)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:309)
+	at cucumber.runtime.junit.ScenarioOutlineRunner.run(ScenarioOutlineRunner.java:53)
+	at cucumber.runtime.junit.FeatureRunner.runChild(FeatureRunner.java:63)
+	at cucumber.runtime.junit.FeatureRunner.runChild(FeatureRunner.java:18)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:238)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:63)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:236)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:53)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:229)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:309)
+	at cucumber.runtime.junit.FeatureRunner.run(FeatureRunner.java:70)
+	at cucumber.api.junit.Cucumber.runChild(Cucumber.java:93)
+	at cucumber.api.junit.Cucumber.runChild(Cucumber.java:37)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:238)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:63)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:236)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:53)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:229)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:309)
+	at cucumber.api.junit.Cucumber.run(Cucumber.java:98)
+	at org.junit.runners.Suite.runChild(Suite.java:127)
+	at org.junit.runners.Suite.runChild(Suite.java:26)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:238)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:63)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:236)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:53)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:229)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:309)
+	at org.junit.runner.JUnitCore.run(JUnitCore.java:160)
+	at org.junit.runner.JUnitCore.run(JUnitCore.java:138)
+	at org.apache.maven.surefire.junitcore.JUnitCoreWrapper.createRequestAndRun(JUnitCoreWrapper.java:108)
+	at org.apache.maven.surefire.junitcore.JUnitCoreWrapper.executeEager(JUnitCoreWrapper.java:78)
+	at org.apache.maven.surefire.junitcore.JUnitCoreWrapper.execute(JUnitCoreWrapper.java:54)
+	at org.apache.maven.surefire.junitcore.JUnitCoreProvider.invoke(JUnitCoreProvider.java:144)
+	at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:203)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:155)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:103)
+Caused by: java.lang.ClassNotFoundException: javax.xml.bind.ValidationEventLocator
+	at java.base/jdk.internal.loader.BuiltinClassLoader.loadClass(BuiltinClassLoader.java:602)
+	at java.base/jdk.internal.loader.ClassLoaders$AppClassLoader.loadClass(ClassLoaders.java:178)
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:521)
+	at java.base/java.lang.ClassLoader.defineClass1(Native Method)
+	at java.base/java.lang.ClassLoader.defineClass(ClassLoader.java:1016)
+	at java.base/java.security.SecureClassLoader.defineClass(SecureClassLoader.java:151)
+	at java.base/jdk.internal.loader.BuiltinClassLoader.defineClass(BuiltinClassLoader.java:821)
+	at java.base/jdk.internal.loader.BuiltinClassLoader.findClassOnClassPathOrNull(BuiltinClassLoader.java:719)
+	at java.base/jdk.internal.loader.BuiltinClassLoader.loadClassOrNull(BuiltinClassLoader.java:642)
+	at java.base/jdk.internal.loader.BuiltinClassLoader.loadClass(BuiltinClassLoader.java:600)
+	at java.base/jdk.internal.loader.ClassLoaders$AppClassLoader.loadClass(ClassLoaders.java:178)
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:521)
+	at ru.yandex.qatools.allure.cucumberjvm.AllureRunListener.testStarted(AllureRunListener.java:259)
+	at org.junit.runner.notification.RunNotifier$3.notifyListener(RunNotifier.java:115)
+	at org.junit.runner.notification.RunNotifier$SafeNotifier.run(RunNotifier.java:61)
+	at org.junit.runner.notification.RunNotifier.fireTestStarted(RunNotifier.java:112)
+	at org.junit.internal.runners.model.EachTestNotifier.fireTestStarted(EachTestNotifier.java:43)
+	at cucumber.runtime.junit.JUnitReporter.result(JUnitReporter.java:95)
+	at cucumber.runtime.Runtime.runStep(Runtime.java:309)
+	at cucumber.runtime.model.StepContainer.runStep(StepContainer.java:44)
+	at cucumber.runtime.model.StepContainer.runSteps(StepContainer.java:39)
+	at cucumber.runtime.model.CucumberScenario.run(CucumberScenario.java:44)
+	at cucumber.runtime.junit.ExecutionUnitRunner.run(ExecutionUnitRunner.java:91)
+	at org.junit.runners.Suite.runChild(Suite.java:127)
+	at org.junit.runners.Suite.runChild(Suite.java:26)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:238)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:63)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:236)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:53)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:229)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:309)
+	at cucumber.runtime.junit.ExamplesRunner.run(ExamplesRunner.java:59)
+	at org.junit.runners.Suite.runChild(Suite.java:127)
+	at org.junit.runners.Suite.runChild(Suite.java:26)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:238)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:63)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:236)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:53)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:229)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:309)
+	at cucumber.runtime.junit.ScenarioOutlineRunner.run(ScenarioOutlineRunner.java:53)
+	at cucumber.runtime.junit.FeatureRunner.runChild(FeatureRunner.java:63)
+	at cucumber.runtime.junit.FeatureRunner.runChild(FeatureRunner.java:18)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:238)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:63)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:236)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:53)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:229)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:309)
+	at cucumber.runtime.junit.FeatureRunner.run(FeatureRunner.java:70)
+	at cucumber.api.junit.Cucumber.runChild(Cucumber.java:93)
+	at cucumber.api.junit.Cucumber.runChild(Cucumber.java:37)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:238)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:63)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:236)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:53)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:229)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:309)
+	at cucumber.api.junit.Cucumber.run(Cucumber.java:98)
+	at org.junit.runners.Suite.runChild(Suite.java:127)
+	at org.junit.runners.Suite.runChild(Suite.java:26)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:238)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:63)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:236)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:53)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:229)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:309)
+	at org.junit.runner.JUnitCore.run(JUnitCore.java:160)
+	at org.junit.runner.JUnitCore.run(JUnitCore.java:138)
+	at org.apache.maven.surefire.junitcore.JUnitCoreWrapper.createRequestAndRun(JUnitCoreWrapper.java:108)
+	at org.apache.maven.surefire.junitcore.JUnitCoreWrapper.executeEager(JUnitCoreWrapper.java:78)
+	at org.apache.maven.surefire.junitcore.JUnitCoreWrapper.execute(JUnitCoreWrapper.java:54)
+	at org.apache.maven.surefire.junitcore.JUnitCoreProvider.invoke(JUnitCoreProvider.java:144)
+	at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:203)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:155)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:103)
+</error>
+    <system-out><![CDATA[@web
+Feature: Hotels feature
+
+  @hotels-1
+  Scenario Outline: Verify user can only view the result by selected property class # hotelpage.feature:11
+    Given I am on default locations search result screen
+    When I select property class <stars>
+    Then I verify system displays only <stars> hotels on search result
+
+    Examples: 
+05-04-2020 00:28:28 SharedSD.java INFO  [main] stepdefinition.SharedSD 21 - ******************************
+05-04-2020 00:28:28 SharedSD.java INFO  [main] stepdefinition.SharedSD 22 - Test setup!
+05-04-2020 00:28:29 RequestAddCookies.java DEBUG [main] protocol.RequestAddCookies 123 - CookieSpec selected: standard
+05-04-2020 00:28:29 RequestAuthCache.java DEBUG [main] protocol.RequestAuthCache 77 - Auth cache not set in the context
+05-04-2020 00:28:29 PoolingHttpClientConnectionManager.java DEBUG [main] conn.PoolingHttpClientConnectionManager 265 - Connection request: [route: {s}->https://raw.githubusercontent.com:443][total kept alive: 0; route allocated: 0 of 2; total allocated: 0 of 20]
+05-04-2020 00:28:29 PoolingHttpClientConnectionManager.java DEBUG [main] conn.PoolingHttpClientConnectionManager 309 - Connection leased: [id: 0][route: {s}->https://raw.githubusercontent.com:443][total kept alive: 0; route allocated: 1 of 2; total allocated: 1 of 20]
+05-04-2020 00:28:29 MainClientExec.java DEBUG [main] execchain.MainClientExec 235 - Opening connection {s}->https://raw.githubusercontent.com:443
+05-04-2020 00:28:29 DefaultHttpClientConnectionOperator.java DEBUG [main] conn.DefaultHttpClientConnectionOperator 139 - Connecting to raw.githubusercontent.com/151.101.208.133:443
+05-04-2020 00:28:29 SSLConnectionSocketFactory.java DEBUG [main] ssl.SSLConnectionSocketFactory 337 - Connecting socket to raw.githubusercontent.com/151.101.208.133:443 with timeout 0
+05-04-2020 00:28:29 SSLConnectionSocketFactory.java DEBUG [main] ssl.SSLConnectionSocketFactory 390 - Enabled protocols: [TLSv1.3, TLSv1.2, TLSv1.1, TLSv1]
+05-04-2020 00:28:29 SSLConnectionSocketFactory.java DEBUG [main] ssl.SSLConnectionSocketFactory 391 - Enabled cipher suites:[TLS_AES_256_GCM_SHA384, TLS_AES_128_GCM_SHA256, TLS_CHACHA20_POLY1305_SHA256, TLS_ECDHE_ECDSA_WITH_AES_256_GCM_SHA384, TLS_ECDHE_ECDSA_WITH_AES_128_GCM_SHA256, TLS_ECDHE_ECDSA_WITH_CHACHA20_POLY1305_SHA256, TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384, TLS_ECDHE_RSA_WITH_CHACHA20_POLY1305_SHA256, TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256, TLS_DHE_RSA_WITH_AES_256_GCM_SHA384, TLS_DHE_RSA_WITH_CHACHA20_POLY1305_SHA256, TLS_DHE_DSS_WITH_AES_256_GCM_SHA384, TLS_DHE_RSA_WITH_AES_128_GCM_SHA256, TLS_DHE_DSS_WITH_AES_128_GCM_SHA256, TLS_ECDHE_ECDSA_WITH_AES_256_CBC_SHA384, TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA384, TLS_ECDHE_ECDSA_WITH_AES_128_CBC_SHA256, TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA256, TLS_DHE_RSA_WITH_AES_256_CBC_SHA256, TLS_DHE_DSS_WITH_AES_256_CBC_SHA256, TLS_DHE_RSA_WITH_AES_128_CBC_SHA256, TLS_DHE_DSS_WITH_AES_128_CBC_SHA256, TLS_ECDH_ECDSA_WITH_AES_256_GCM_SHA384, TLS_ECDH_RSA_WITH_AES_256_GCM_SHA384, TLS_ECDH_ECDSA_WITH_AES_128_GCM_SHA256, TLS_ECDH_RSA_WITH_AES_128_GCM_SHA256, TLS_ECDH_ECDSA_WITH_AES_256_CBC_SHA384, TLS_ECDH_RSA_WITH_AES_256_CBC_SHA384, TLS_ECDH_ECDSA_WITH_AES_128_CBC_SHA256, TLS_ECDH_RSA_WITH_AES_128_CBC_SHA256, TLS_ECDHE_ECDSA_WITH_AES_256_CBC_SHA, TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA, TLS_ECDHE_ECDSA_WITH_AES_128_CBC_SHA, TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA, TLS_DHE_RSA_WITH_AES_256_CBC_SHA, TLS_DHE_DSS_WITH_AES_256_CBC_SHA, TLS_DHE_RSA_WITH_AES_128_CBC_SHA, TLS_DHE_DSS_WITH_AES_128_CBC_SHA, TLS_ECDH_ECDSA_WITH_AES_256_CBC_SHA, TLS_ECDH_RSA_WITH_AES_256_CBC_SHA, TLS_ECDH_ECDSA_WITH_AES_128_CBC_SHA, TLS_ECDH_RSA_WITH_AES_128_CBC_SHA, TLS_RSA_WITH_AES_256_GCM_SHA384, TLS_RSA_WITH_AES_128_GCM_SHA256, TLS_RSA_WITH_AES_256_CBC_SHA256, TLS_RSA_WITH_AES_128_CBC_SHA256, TLS_RSA_WITH_AES_256_CBC_SHA, TLS_RSA_WITH_AES_128_CBC_SHA, TLS_EMPTY_RENEGOTIATION_INFO_SCSV]
+05-04-2020 00:28:29 SSLConnectionSocketFactory.java DEBUG [main] ssl.SSLConnectionSocketFactory 395 - Starting handshake
+05-04-2020 00:28:29 SSLConnectionSocketFactory.java DEBUG [main] ssl.SSLConnectionSocketFactory 425 - Secure session established
+05-04-2020 00:28:29 SSLConnectionSocketFactory.java DEBUG [main] ssl.SSLConnectionSocketFactory 426 -  negotiated protocol: TLSv1.2
+05-04-2020 00:28:29 SSLConnectionSocketFactory.java DEBUG [main] ssl.SSLConnectionSocketFactory 427 -  negotiated cipher suite: TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256
+05-04-2020 00:28:29 SSLConnectionSocketFactory.java DEBUG [main] ssl.SSLConnectionSocketFactory 435 -  peer principal: CN=www.github.com, O="GitHub, Inc.", L=San Francisco, ST=California, C=US
+05-04-2020 00:28:29 SSLConnectionSocketFactory.java DEBUG [main] ssl.SSLConnectionSocketFactory 444 -  peer alternative names: [www.github.com, *.github.com, github.com, *.github.io, github.io, *.githubusercontent.com, githubusercontent.com]
+05-04-2020 00:28:29 SSLConnectionSocketFactory.java DEBUG [main] ssl.SSLConnectionSocketFactory 448 -  issuer principal: CN=DigiCert SHA2 High Assurance Server CA, OU=www.digicert.com, O=DigiCert Inc, C=US
+05-04-2020 00:28:29 DefaultHttpClientConnectionOperator.java DEBUG [main] conn.DefaultHttpClientConnectionOperator 146 - Connection established 192.168.1.6:56826<->151.101.208.133:443
+05-04-2020 00:28:29 LoggingManagedHttpClientConnection.java DEBUG [main] conn.DefaultManagedHttpClientConnection 88 - http-outgoing-0: set socket timeout to 30000
+05-04-2020 00:28:29 MainClientExec.java DEBUG [main] execchain.MainClientExec 256 - Executing request GET /bonigarcia/webdrivermanager/master/src/main/resources/versions.properties HTTP/1.1
+05-04-2020 00:28:29 MainClientExec.java DEBUG [main] execchain.MainClientExec 261 - Target auth state: UNCHALLENGED
+05-04-2020 00:28:29 MainClientExec.java DEBUG [main] execchain.MainClientExec 267 - Proxy auth state: UNCHALLENGED
+05-04-2020 00:28:29 LoggingManagedHttpClientConnection.java DEBUG [main] http.headers 133 - http-outgoing-0 >> GET /bonigarcia/webdrivermanager/master/src/main/resources/versions.properties HTTP/1.1
+05-04-2020 00:28:29 LoggingManagedHttpClientConnection.java DEBUG [main] http.headers 136 - http-outgoing-0 >> User-Agent: Apache-HttpClient/4.5.6
+05-04-2020 00:28:29 LoggingManagedHttpClientConnection.java DEBUG [main] http.headers 136 - http-outgoing-0 >> Connection: keep-alive
+05-04-2020 00:28:29 LoggingManagedHttpClientConnection.java DEBUG [main] http.headers 136 - http-outgoing-0 >> Host: raw.githubusercontent.com
+05-04-2020 00:28:29 LoggingManagedHttpClientConnection.java DEBUG [main] http.headers 136 - http-outgoing-0 >> Accept-Encoding: gzip,deflate
+05-04-2020 00:28:29 Wire.java DEBUG [main] http.wire 73 - http-outgoing-0 >> "GET /bonigarcia/webdrivermanager/master/src/main/resources/versions.properties HTTP/1.1[\r][\n]"
+05-04-2020 00:28:29 Wire.java DEBUG [main] http.wire 73 - http-outgoing-0 >> "User-Agent: Apache-HttpClient/4.5.6[\r][\n]"
+05-04-2020 00:28:29 Wire.java DEBUG [main] http.wire 73 - http-outgoing-0 >> "Connection: keep-alive[\r][\n]"
+05-04-2020 00:28:29 Wire.java DEBUG [main] http.wire 73 - http-outgoing-0 >> "Host: raw.githubusercontent.com[\r][\n]"
+05-04-2020 00:28:29 Wire.java DEBUG [main] http.wire 73 - http-outgoing-0 >> "Accept-Encoding: gzip,deflate[\r][\n]"
+05-04-2020 00:28:29 Wire.java DEBUG [main] http.wire 73 - http-outgoing-0 >> "[\r][\n]"
+05-04-2020 00:28:29 Wire.java DEBUG [main] http.wire 73 - http-outgoing-0 << "HTTP/1.1 200 OK[\r][\n]"
+05-04-2020 00:28:29 Wire.java DEBUG [main] http.wire 73 - http-outgoing-0 << "Cache-Control: max-age=300[\r][\n]"
+05-04-2020 00:28:29 Wire.java DEBUG [main] http.wire 73 - http-outgoing-0 << "Content-Security-Policy: default-src 'none'; style-src 'unsafe-inline'; sandbox[\r][\n]"
+05-04-2020 00:28:29 Wire.java DEBUG [main] http.wire 73 - http-outgoing-0 << "Content-Type: text/plain; charset=utf-8[\r][\n]"
+05-04-2020 00:28:29 Wire.java DEBUG [main] http.wire 73 - http-outgoing-0 << "ETag: W/"ddf1ebb9551b7a02d97f3d2bddbeb1630768559099c4ddaf39b64e0b5b0c6c70"[\r][\n]"
+05-04-2020 00:28:29 Wire.java DEBUG [main] http.wire 73 - http-outgoing-0 << "Strict-Transport-Security: max-age=31536000[\r][\n]"
+05-04-2020 00:28:29 Wire.java DEBUG [main] http.wire 73 - http-outgoing-0 << "X-Content-Type-Options: nosniff[\r][\n]"
+05-04-2020 00:28:29 Wire.java DEBUG [main] http.wire 73 - http-outgoing-0 << "X-Frame-Options: deny[\r][\n]"
+05-04-2020 00:28:29 Wire.java DEBUG [main] http.wire 73 - http-outgoing-0 << "X-XSS-Protection: 1; mode=block[\r][\n]"
+05-04-2020 00:28:29 Wire.java DEBUG [main] http.wire 73 - http-outgoing-0 << "Via: 1.1 varnish (Varnish/6.0)[\r][\n]"
+05-04-2020 00:28:29 Wire.java DEBUG [main] http.wire 73 - http-outgoing-0 << "X-GitHub-Request-Id: 9BBA:4781:176F5D:1C9EBB:5EAF1DD8[\r][\n]"
+05-04-2020 00:28:29 Wire.java DEBUG [main] http.wire 73 - http-outgoing-0 << "Content-Encoding: gzip[\r][\n]"
+05-04-2020 00:28:29 Wire.java DEBUG [main] http.wire 73 - http-outgoing-0 << "Content-Length: 739[\r][\n]"
+05-04-2020 00:28:29 Wire.java DEBUG [main] http.wire 73 - http-outgoing-0 << "Accept-Ranges: bytes[\r][\n]"
+05-04-2020 00:28:29 Wire.java DEBUG [main] http.wire 73 - http-outgoing-0 << "Date: Mon, 04 May 2020 04:28:29 GMT[\r][\n]"
+05-04-2020 00:28:29 Wire.java DEBUG [main] http.wire 73 - http-outgoing-0 << "Via: 1.1 varnish[\r][\n]"
+05-04-2020 00:28:29 Wire.java DEBUG [main] http.wire 73 - http-outgoing-0 << "Connection: keep-alive[\r][\n]"
+05-04-2020 00:28:29 Wire.java DEBUG [main] http.wire 73 - http-outgoing-0 << "X-Served-By: cache-ewr18121-EWR[\r][\n]"
+05-04-2020 00:28:29 Wire.java DEBUG [main] http.wire 73 - http-outgoing-0 << "X-Cache: HIT, HIT[\r][\n]"
+05-04-2020 00:28:29 Wire.java DEBUG [main] http.wire 73 - http-outgoing-0 << "X-Cache-Hits: 3, 1[\r][\n]"
+05-04-2020 00:28:29 Wire.java DEBUG [main] http.wire 73 - http-outgoing-0 << "X-Timer: S1588566509.372267,VS0,VE8[\r][\n]"
+05-04-2020 00:28:29 Wire.java DEBUG [main] http.wire 73 - http-outgoing-0 << "Vary: Authorization,Accept-Encoding[\r][\n]"
+05-04-2020 00:28:29 Wire.java DEBUG [main] http.wire 73 - http-outgoing-0 << "Access-Control-Allow-Origin: *[\r][\n]"
+05-04-2020 00:28:29 Wire.java DEBUG [main] http.wire 73 - http-outgoing-0 << "X-Fastly-Request-ID: f1c5cb330f0aafe1f02a2795b3d785bf7100c1df[\r][\n]"
+05-04-2020 00:28:29 Wire.java DEBUG [main] http.wire 73 - http-outgoing-0 << "Expires: Mon, 04 May 2020 04:33:29 GMT[\r][\n]"
+05-04-2020 00:28:29 Wire.java DEBUG [main] http.wire 73 - http-outgoing-0 << "Source-Age: 264[\r][\n]"
+05-04-2020 00:28:29 Wire.java DEBUG [main] http.wire 73 - http-outgoing-0 << "[\r][\n]"
+05-04-2020 00:28:29 Wire.java DEBUG [main] http.wire 73 - http-outgoing-0 << "[0x1f][0x8b][0x8][0x0][0x0][0x0][0x0][0x0][0x0][0x3][0x8d][0x95][0xcb][0xae][0xdb] [0x10][0x86][0xf7]y[\n]"
+05-04-2020 00:28:29 Wire.java DEBUG [main] http.wire 73 - http-outgoing-0 << "[0xa4][0xb3]i[0x17][0xc7][0xe6]f[0xc0][0x91][0xd8][0xf4][0xba][0xaa][0xba]h_[0xc0]IHb[0x1d][0xc7]D[0xd8]9i[0xfb][0xf4][0x1d]n.[0xb1]Z[0xa9][0xcb][0xff][0xf3]0[0xc][0xc][0xff][0xf8][0x9]}?[0xf7][0x13]:[0xf6][0x83]A{;[0xce]]?Nh>[0x1b][0xf4]2[0xda][0xfb][0x88]^[0x8d][0x9b]z[0xb][0xe8]h[0x1d]:[0xb8][0xde]k[0xf4]f[0xd7][0x8f][0x9d][0xfb][0xf9][0x16][0x16]\[0xae][0xdd][0xdc][0xef]`[0xed][0xbd][0x9f][0xcf]a[0xdd][0xde]:g[0xa6][0xab][0x1d][0xf][0xfd]xB;g[0xef][0x93]q9[0xcf]f[0xf3][0x84][0xde]E[0xb4]E[0x9f][0xad]=[0xc1][0xca][0xf7]gg/[0x6]=[0xa3][0xf]![0xfd][0x16][0xed][0x3][0x88][0x9b]A[0xfc]7{s{[0xb3]E[0xe7]y[0xbe]n[0xeb][0xba][0xfc]Z[0x5][0xd1][0xdf].[0x95]u[0xa7][0xfa][0x0][0x5][0xf][0xb6];L[0x9b][0x18][0xa3][0x98]V[0xac][0xc2][0x15]'[0x98]U[0x84]gJ[0xb4]"[0x9e]b[0xce]+[0xd1]f[0x8a][0xb5][0xc2]@Y[0xab]dE[0xb0]HX[0xb6]Z[0xb6][0x1][0xf3][0xa6]b[0xb]UZ[0xaa]@1[0x87][0xe0]&c[0xa9][0xa5][0xf4]X[0x89][0x6][0xd2]g*[0xb4][0x14][0x81][0xe2][0xb6]"t[0xc9][0xd1]h[0xd9]x,%[0x86][0xe2][0x96]h[0xae]%[0xf][0x98][0xb6][0xd5][0x12][0xcb][0xb4][0xf4][0x7]a[0x2][0xce]#T[0xa6]T[0xd3][0x8a]/1[0xe4]Aa[0xaf]ra[0xa2][0xf5]*_[0x80]P^[0xd1][0xac][0xa4]W$+[0xe1]U.F4[0xa0]X[0xde]Op[0xaf]dV[0xcc][0xab][0xbc][0x9f][0xf0][0xb5][0xb0]e?_[0xb][[0xf6][0xf3][0xb5]0[0xf6][0xd0][0xfa]/[0xf6]W?[0xc][0x1d][0xfa][0xd4];s[0xb4]?[0x8a][0xe6][0x9f][0xcc][0xfe][0xc5][0xfe][0xb5][0xf7][0x13]4[0xff][0x4][0xaf][0xec][0xb6][0xab][0xe0][0xdd][0xd5][0x97][0x98][0xa2].[0x16][0xd4][0xce][0xc][0xa6][0x9b][0xcc][0xb4]9[0xc6][0xbc]p[0xc9][0xb8][0xa2]p[0xfb][0xb][0xe0]k[0xc0][0xd6][0x80][0xae][0x1]Y[0x3][0xbc][0x2]p[0xbd]+[0xa0]<h[\n]"
+05-04-2020 00:28:29 Wire.java DEBUG [main] http.wire 73 - http-outgoing-0 << " =[0xe0][0x5][0x10]k[0xd0][0xac]A[0xa8][0x94][0x15][0x80][0xad]A[0xa8][0x94][0x16] TJ[\n]"
+05-04-2020 00:28:29 Wire.java DEBUG [main] http.wire 73 - http-outgoing-0 << "[0x80]W[0xa0]i[0xd7]@[0xad][0x81]\[0x83]P).@[0x93]A[0xd9][0xd0][0xaf]W[0xe3][0xba][0xa2][0x8d][0xd6][0xeb][0xff]ic[0x8][0x9c][0xec]q[0xbe]w[0xce]D[0x95]M[0xbd]nj[0xf8][0x8]w[0xfb][0xc7][0xbe][0x84][0xb0]D[0xe5][0x83]}q[0xa2][0xa2]p[0xaf]l[0x13]l[\n]"
+05-04-2020 00:28:29 Wire.java DEBUG [main] http.wire 73 - http-outgoing-0 << "[0xf3]*[0x99] /[0xac]Kh^[0xcf]J[0xeb]2[0x9a](-[0x9d][0xbb][0xec][0x95][0x1c][0x17]D[0xd3][0x96]"[0xf9]-[0x8a]d[0xb7]([0x92][0xdb][0xa2]Hf[0x8b]"y-[0x8a]d[0xb5]([0x92][0xd3][0xa2] [0xd1]ZQ[0xe0]Bp_A[0xae][0x98][0xfb][\n]"
+05-04-2020 00:28:29 Wire.java DEBUG [main] http.wire 73 - http-outgoing-0 << "X[0xda][0x87][0xfb][\n]"
+05-04-2020 00:28:29 Wire.java DEBUG [main] http.wire 87 - http-outgoing-0 << "h[0xba][0xc].[0xa2]x[0xf0]f[0xbf]w[0xd6]w[0x4]}<[0x9c][0xca][0xb9]|[0x99][0xc][0x80]6[0xf5]`^[0xcd][0xe0][0xb3]V[0x97][0x9c]!t[0xd8][0x8c][0xcf][0xb7][0xa9]^[0xd8][0xb3]OR[0xcf][0xd6][0xe]S}7[0xbb][0xd4][0xe4][0x8d][0xa7][0x8a]jE}o[0x1b][0xb8][0xee]H[0x96]a[\r]}[0x8c]$[0xf]jA[0xa0][0xfd]1j[0x99][0xd2][0x84][0xa5][0xa8]<[0xa1][0xa9][0xef]j$i8S[0xb6][0x90]4[0x98][0x89]ZV[0xa5][0x99]LX[0xb]/< [0xce][0xf5][0xd5][0x99]g[0xf8])[0xce][0xdd]0[0x98]C[0x84]T[0x8b][0x8a]H[0x2]#.H[0xa2][0xe1][0xd1][0x8][0xda][0xb6]Qb[\r]/[0xb3][0xc1][0x82][0x5][0xc9][0x94][0xf6][0x1f][0xd6]FI}[0x9b][0xe1][0x9f][0xa1]D[0x94]X[0xc3]90[0x85]W[0xf0][0x1b]g[0xf9]=X[0x8a][0x7][0x0][0x0]"
+05-04-2020 00:28:29 LoggingManagedHttpClientConnection.java DEBUG [main] http.headers 122 - http-outgoing-0 << HTTP/1.1 200 OK
+05-04-2020 00:28:29 LoggingManagedHttpClientConnection.java DEBUG [main] http.headers 125 - http-outgoing-0 << Cache-Control: max-age=300
+05-04-2020 00:28:29 LoggingManagedHttpClientConnection.java DEBUG [main] http.headers 125 - http-outgoing-0 << Content-Security-Policy: default-src 'none'; style-src 'unsafe-inline'; sandbox
+05-04-2020 00:28:29 LoggingManagedHttpClientConnection.java DEBUG [main] http.headers 125 - http-outgoing-0 << Content-Type: text/plain; charset=utf-8
+05-04-2020 00:28:29 LoggingManagedHttpClientConnection.java DEBUG [main] http.headers 125 - http-outgoing-0 << ETag: W/"ddf1ebb9551b7a02d97f3d2bddbeb1630768559099c4ddaf39b64e0b5b0c6c70"
+05-04-2020 00:28:29 LoggingManagedHttpClientConnection.java DEBUG [main] http.headers 125 - http-outgoing-0 << Strict-Transport-Security: max-age=31536000
+05-04-2020 00:28:29 LoggingManagedHttpClientConnection.java DEBUG [main] http.headers 125 - http-outgoing-0 << X-Content-Type-Options: nosniff
+05-04-2020 00:28:29 LoggingManagedHttpClientConnection.java DEBUG [main] http.headers 125 - http-outgoing-0 << X-Frame-Options: deny
+05-04-2020 00:28:29 LoggingManagedHttpClientConnection.java DEBUG [main] http.headers 125 - http-outgoing-0 << X-XSS-Protection: 1; mode=block
+05-04-2020 00:28:29 LoggingManagedHttpClientConnection.java DEBUG [main] http.headers 125 - http-outgoing-0 << Via: 1.1 varnish (Varnish/6.0)
+05-04-2020 00:28:29 LoggingManagedHttpClientConnection.java DEBUG [main] http.headers 125 - http-outgoing-0 << X-GitHub-Request-Id: 9BBA:4781:176F5D:1C9EBB:5EAF1DD8
+05-04-2020 00:28:29 LoggingManagedHttpClientConnection.java DEBUG [main] http.headers 125 - http-outgoing-0 << Content-Encoding: gzip
+05-04-2020 00:28:29 LoggingManagedHttpClientConnection.java DEBUG [main] http.headers 125 - http-outgoing-0 << Content-Length: 739
+05-04-2020 00:28:29 LoggingManagedHttpClientConnection.java DEBUG [main] http.headers 125 - http-outgoing-0 << Accept-Ranges: bytes
+05-04-2020 00:28:29 LoggingManagedHttpClientConnection.java DEBUG [main] http.headers 125 - http-outgoing-0 << Date: Mon, 04 May 2020 04:28:29 GMT
+05-04-2020 00:28:29 LoggingManagedHttpClientConnection.java DEBUG [main] http.headers 125 - http-outgoing-0 << Via: 1.1 varnish
+05-04-2020 00:28:29 LoggingManagedHttpClientConnection.java DEBUG [main] http.headers 125 - http-outgoing-0 << Connection: keep-alive
+05-04-2020 00:28:29 LoggingManagedHttpClientConnection.java DEBUG [main] http.headers 125 - http-outgoing-0 << X-Served-By: cache-ewr18121-EWR
+05-04-2020 00:28:29 LoggingManagedHttpClientConnection.java DEBUG [main] http.headers 125 - http-outgoing-0 << X-Cache: HIT, HIT
+05-04-2020 00:28:29 LoggingManagedHttpClientConnection.java DEBUG [main] http.headers 125 - http-outgoing-0 << X-Cache-Hits: 3, 1
+05-04-2020 00:28:29 LoggingManagedHttpClientConnection.java DEBUG [main] http.headers 125 - http-outgoing-0 << X-Timer: S1588566509.372267,VS0,VE8
+05-04-2020 00:28:29 LoggingManagedHttpClientConnection.java DEBUG [main] http.headers 125 - http-outgoing-0 << Vary: Authorization,Accept-Encoding
+05-04-2020 00:28:29 LoggingManagedHttpClientConnection.java DEBUG [main] http.headers 125 - http-outgoing-0 << Access-Control-Allow-Origin: *
+05-04-2020 00:28:29 LoggingManagedHttpClientConnection.java DEBUG [main] http.headers 125 - http-outgoing-0 << X-Fastly-Request-ID: f1c5cb330f0aafe1f02a2795b3d785bf7100c1df
+05-04-2020 00:28:29 LoggingManagedHttpClientConnection.java DEBUG [main] http.headers 125 - http-outgoing-0 << Expires: Mon, 04 May 2020 04:33:29 GMT
+05-04-2020 00:28:29 LoggingManagedHttpClientConnection.java DEBUG [main] http.headers 125 - http-outgoing-0 << Source-Age: 264
+05-04-2020 00:28:29 MainClientExec.java DEBUG [main] execchain.MainClientExec 285 - Connection can be kept alive indefinitely
+05-04-2020 00:28:29 PoolingHttpClientConnectionManager.java DEBUG [main] conn.PoolingHttpClientConnectionManager 341 - Connection [id: 0][route: {s}->https://raw.githubusercontent.com:443] can be kept alive indefinitely
+05-04-2020 00:28:29 LoggingManagedHttpClientConnection.java DEBUG [main] conn.DefaultManagedHttpClientConnection 88 - http-outgoing-0: set socket timeout to 0
+05-04-2020 00:28:29 PoolingHttpClientConnectionManager.java DEBUG [main] conn.PoolingHttpClientConnectionManager 348 - Connection released: [id: 0][route: {s}->https://raw.githubusercontent.com:443][total kept alive: 1; route allocated: 1 of 2; total allocated: 1 of 20]
+
+  Background:  # hotelpage.feature:6
+    
+    Given: I am on Hotels Home Page
+
+Chicago, 
+]]></system-out>
+    <system-err><![CDATA[Starting ChromeDriver 81.0.4044.69 (6813546031a4bc83f717a2ef7cd4ac6ec1199132-refs/branch-heads/4044@{#776}) on port 26871
+Only local connections are allowed.
+Please protect ports used by ChromeDriver and related test frameworks to prevent access by malicious code.
+May 04, 2020 12:28:32 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+[1588566513.265][SEVERE]: Timed out receiving message from renderer: 0.100
+[1588566513.414][SEVERE]: Timed out receiving message from renderer: 0.100
+[1588566513.883][SEVERE]: Timed out receiving message from renderer: 0.100
+[1588566514.425][SEVERE]: Timed out receiving message from renderer: 0.100
+[1588566514.632][SEVERE]: Timed out receiving message from renderer: 0.100
+]]></system-err>
+  </testcase>
+  <testcase name="Scenario Outline: Verify user can only view the result by selected property class" classname="Scenario Outline: Verify user can only view the result by selected property class" time="0.028">
+    <error message="javax/xml/bind/ValidationEventLocator" type="java.lang.NoClassDefFoundError">java.lang.NoClassDefFoundError: javax/xml/bind/ValidationEventLocator
+	at java.base/java.lang.ClassLoader.defineClass1(Native Method)
+	at java.base/java.lang.ClassLoader.defineClass(ClassLoader.java:1016)
+	at java.base/java.security.SecureClassLoader.defineClass(SecureClassLoader.java:151)
+	at java.base/jdk.internal.loader.BuiltinClassLoader.defineClass(BuiltinClassLoader.java:821)
+	at java.base/jdk.internal.loader.BuiltinClassLoader.findClassOnClassPathOrNull(BuiltinClassLoader.java:719)
+	at java.base/jdk.internal.loader.BuiltinClassLoader.loadClassOrNull(BuiltinClassLoader.java:642)
+	at java.base/jdk.internal.loader.BuiltinClassLoader.loadClass(BuiltinClassLoader.java:600)
+	at java.base/jdk.internal.loader.ClassLoaders$AppClassLoader.loadClass(ClassLoaders.java:178)
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:521)
+	at ru.yandex.qatools.allure.cucumberjvm.AllureRunListener.fireTestCaseFailure(AllureRunListener.java:355)
+	at ru.yandex.qatools.allure.cucumberjvm.AllureRunListener.testFailure(AllureRunListener.java:276)
+	at org.junit.runner.notification.RunNotifier$4.notifyListener(RunNotifier.java:139)
+	at org.junit.runner.notification.RunNotifier$SafeNotifier.run(RunNotifier.java:61)
+	at org.junit.runner.notification.RunNotifier.fireTestFailures(RunNotifier.java:134)
+	at org.junit.runner.notification.RunNotifier.fireTestFailure(RunNotifier.java:128)
+	at org.junit.internal.runners.model.EachTestNotifier.addFailure(EachTestNotifier.java:23)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:315)
+	at cucumber.runtime.junit.ExamplesRunner.run(ExamplesRunner.java:59)
+	at org.junit.runners.Suite.runChild(Suite.java:127)
+	at org.junit.runners.Suite.runChild(Suite.java:26)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:238)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:63)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:236)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:53)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:229)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:309)
+	at cucumber.runtime.junit.ScenarioOutlineRunner.run(ScenarioOutlineRunner.java:53)
+	at cucumber.runtime.junit.FeatureRunner.runChild(FeatureRunner.java:63)
+	at cucumber.runtime.junit.FeatureRunner.runChild(FeatureRunner.java:18)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:238)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:63)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:236)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:53)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:229)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:309)
+	at cucumber.runtime.junit.FeatureRunner.run(FeatureRunner.java:70)
+	at cucumber.api.junit.Cucumber.runChild(Cucumber.java:93)
+	at cucumber.api.junit.Cucumber.runChild(Cucumber.java:37)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:238)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:63)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:236)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:53)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:229)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:309)
+	at cucumber.api.junit.Cucumber.run(Cucumber.java:98)
+	at org.junit.runners.Suite.runChild(Suite.java:127)
+	at org.junit.runners.Suite.runChild(Suite.java:26)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:238)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:63)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:236)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:53)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:229)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:309)
+	at org.junit.runner.JUnitCore.run(JUnitCore.java:160)
+	at org.junit.runner.JUnitCore.run(JUnitCore.java:138)
+	at org.apache.maven.surefire.junitcore.JUnitCoreWrapper.createRequestAndRun(JUnitCoreWrapper.java:108)
+	at org.apache.maven.surefire.junitcore.JUnitCoreWrapper.executeEager(JUnitCoreWrapper.java:78)
+	at org.apache.maven.surefire.junitcore.JUnitCoreWrapper.execute(JUnitCoreWrapper.java:54)
+	at org.apache.maven.surefire.junitcore.JUnitCoreProvider.invoke(JUnitCoreProvider.java:144)
+	at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:203)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:155)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:103)
+Caused by: java.lang.ClassNotFoundException: javax.xml.bind.ValidationEventLocator
+	at java.base/jdk.internal.loader.BuiltinClassLoader.loadClass(BuiltinClassLoader.java:602)
+	at java.base/jdk.internal.loader.ClassLoaders$AppClassLoader.loadClass(ClassLoaders.java:178)
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:521)
+	at java.base/java.lang.ClassLoader.defineClass1(Native Method)
+	at java.base/java.lang.ClassLoader.defineClass(ClassLoader.java:1016)
+	at java.base/java.security.SecureClassLoader.defineClass(SecureClassLoader.java:151)
+	at java.base/jdk.internal.loader.BuiltinClassLoader.defineClass(BuiltinClassLoader.java:821)
+	at java.base/jdk.internal.loader.BuiltinClassLoader.findClassOnClassPathOrNull(BuiltinClassLoader.java:719)
+	at java.base/jdk.internal.loader.BuiltinClassLoader.loadClassOrNull(BuiltinClassLoader.java:642)
+	at java.base/jdk.internal.loader.BuiltinClassLoader.loadClass(BuiltinClassLoader.java:600)
+	at java.base/jdk.internal.loader.ClassLoaders$AppClassLoader.loadClass(ClassLoaders.java:178)
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:521)
+	at ru.yandex.qatools.allure.cucumberjvm.AllureRunListener.fireTestCaseFailure(AllureRunListener.java:355)
+	at ru.yandex.qatools.allure.cucumberjvm.AllureRunListener.testFailure(AllureRunListener.java:276)
+	at org.junit.runner.notification.RunNotifier$4.notifyListener(RunNotifier.java:139)
+	at org.junit.runner.notification.RunNotifier$SafeNotifier.run(RunNotifier.java:61)
+	at org.junit.runner.notification.RunNotifier.fireTestFailures(RunNotifier.java:134)
+	at org.junit.runner.notification.RunNotifier.fireTestFailure(RunNotifier.java:128)
+	at org.junit.internal.runners.model.EachTestNotifier.addFailure(EachTestNotifier.java:23)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:315)
+	at cucumber.runtime.junit.ExamplesRunner.run(ExamplesRunner.java:59)
+	at org.junit.runners.Suite.runChild(Suite.java:127)
+	at org.junit.runners.Suite.runChild(Suite.java:26)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:238)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:63)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:236)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:53)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:229)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:309)
+	at cucumber.runtime.junit.ScenarioOutlineRunner.run(ScenarioOutlineRunner.java:53)
+	at cucumber.runtime.junit.FeatureRunner.runChild(FeatureRunner.java:63)
+	at cucumber.runtime.junit.FeatureRunner.runChild(FeatureRunner.java:18)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:238)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:63)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:236)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:53)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:229)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:309)
+	at cucumber.runtime.junit.FeatureRunner.run(FeatureRunner.java:70)
+	at cucumber.api.junit.Cucumber.runChild(Cucumber.java:93)
+	at cucumber.api.junit.Cucumber.runChild(Cucumber.java:37)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:238)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:63)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:236)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:53)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:229)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:309)
+	at cucumber.api.junit.Cucumber.run(Cucumber.java:98)
+	at org.junit.runners.Suite.runChild(Suite.java:127)
+	at org.junit.runners.Suite.runChild(Suite.java:26)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:238)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:63)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:236)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:53)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:229)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:309)
+	at org.junit.runner.JUnitCore.run(JUnitCore.java:160)
+	at org.junit.runner.JUnitCore.run(JUnitCore.java:138)
+	at org.apache.maven.surefire.junitcore.JUnitCoreWrapper.createRequestAndRun(JUnitCoreWrapper.java:108)
+	at org.apache.maven.surefire.junitcore.JUnitCoreWrapper.executeEager(JUnitCoreWrapper.java:78)
+	at org.apache.maven.surefire.junitcore.JUnitCoreWrapper.execute(JUnitCoreWrapper.java:54)
+	at org.apache.maven.surefire.junitcore.JUnitCoreProvider.invoke(JUnitCoreProvider.java:144)
+	at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:203)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:155)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:103)
+</error>
+  </testcase>
+  <testcase name="Feature: Hotels feature" classname="Feature: Hotels feature" time="0.029">
+    <error message="javax/xml/bind/ValidationEventLocator" type="java.lang.NoClassDefFoundError">java.lang.NoClassDefFoundError: javax/xml/bind/ValidationEventLocator
+	at java.base/java.lang.ClassLoader.defineClass1(Native Method)
+	at java.base/java.lang.ClassLoader.defineClass(ClassLoader.java:1016)
+	at java.base/java.security.SecureClassLoader.defineClass(SecureClassLoader.java:151)
+	at java.base/jdk.internal.loader.BuiltinClassLoader.defineClass(BuiltinClassLoader.java:821)
+	at java.base/jdk.internal.loader.BuiltinClassLoader.findClassOnClassPathOrNull(BuiltinClassLoader.java:719)
+	at java.base/jdk.internal.loader.BuiltinClassLoader.loadClassOrNull(BuiltinClassLoader.java:642)
+	at java.base/jdk.internal.loader.BuiltinClassLoader.loadClass(BuiltinClassLoader.java:600)
+	at java.base/jdk.internal.loader.ClassLoaders$AppClassLoader.loadClass(ClassLoaders.java:178)
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:521)
+	at ru.yandex.qatools.allure.cucumberjvm.AllureRunListener.fireTestCaseFailure(AllureRunListener.java:355)
+	at ru.yandex.qatools.allure.cucumberjvm.AllureRunListener.testFailure(AllureRunListener.java:276)
+	at org.junit.runner.notification.RunNotifier$4.notifyListener(RunNotifier.java:139)
+	at org.junit.runner.notification.RunNotifier$SafeNotifier.run(RunNotifier.java:61)
+	at org.junit.runner.notification.RunNotifier.fireTestFailures(RunNotifier.java:134)
+	at org.junit.runner.notification.RunNotifier.fireTestFailure(RunNotifier.java:128)
+	at org.junit.internal.runners.model.EachTestNotifier.addFailure(EachTestNotifier.java:23)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:315)
+	at cucumber.runtime.junit.ScenarioOutlineRunner.run(ScenarioOutlineRunner.java:53)
+	at cucumber.runtime.junit.FeatureRunner.runChild(FeatureRunner.java:63)
+	at cucumber.runtime.junit.FeatureRunner.runChild(FeatureRunner.java:18)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:238)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:63)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:236)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:53)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:229)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:309)
+	at cucumber.runtime.junit.FeatureRunner.run(FeatureRunner.java:70)
+	at cucumber.api.junit.Cucumber.runChild(Cucumber.java:93)
+	at cucumber.api.junit.Cucumber.runChild(Cucumber.java:37)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:238)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:63)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:236)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:53)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:229)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:309)
+	at cucumber.api.junit.Cucumber.run(Cucumber.java:98)
+	at org.junit.runners.Suite.runChild(Suite.java:127)
+	at org.junit.runners.Suite.runChild(Suite.java:26)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:238)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:63)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:236)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:53)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:229)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:309)
+	at org.junit.runner.JUnitCore.run(JUnitCore.java:160)
+	at org.junit.runner.JUnitCore.run(JUnitCore.java:138)
+	at org.apache.maven.surefire.junitcore.JUnitCoreWrapper.createRequestAndRun(JUnitCoreWrapper.java:108)
+	at org.apache.maven.surefire.junitcore.JUnitCoreWrapper.executeEager(JUnitCoreWrapper.java:78)
+	at org.apache.maven.surefire.junitcore.JUnitCoreWrapper.execute(JUnitCoreWrapper.java:54)
+	at org.apache.maven.surefire.junitcore.JUnitCoreProvider.invoke(JUnitCoreProvider.java:144)
+	at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:203)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:155)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:103)
+Caused by: java.lang.ClassNotFoundException: javax.xml.bind.ValidationEventLocator
+	at java.base/jdk.internal.loader.BuiltinClassLoader.loadClass(BuiltinClassLoader.java:602)
+	at java.base/jdk.internal.loader.ClassLoaders$AppClassLoader.loadClass(ClassLoaders.java:178)
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:521)
+	at java.base/java.lang.ClassLoader.defineClass1(Native Method)
+	at java.base/java.lang.ClassLoader.defineClass(ClassLoader.java:1016)
+	at java.base/java.security.SecureClassLoader.defineClass(SecureClassLoader.java:151)
+	at java.base/jdk.internal.loader.BuiltinClassLoader.defineClass(BuiltinClassLoader.java:821)
+	at java.base/jdk.internal.loader.BuiltinClassLoader.findClassOnClassPathOrNull(BuiltinClassLoader.java:719)
+	at java.base/jdk.internal.loader.BuiltinClassLoader.loadClassOrNull(BuiltinClassLoader.java:642)
+	at java.base/jdk.internal.loader.BuiltinClassLoader.loadClass(BuiltinClassLoader.java:600)
+	at java.base/jdk.internal.loader.ClassLoaders$AppClassLoader.loadClass(ClassLoaders.java:178)
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:521)
+	at ru.yandex.qatools.allure.cucumberjvm.AllureRunListener.fireTestCaseFailure(AllureRunListener.java:355)
+	at ru.yandex.qatools.allure.cucumberjvm.AllureRunListener.testFailure(AllureRunListener.java:276)
+	at org.junit.runner.notification.RunNotifier$4.notifyListener(RunNotifier.java:139)
+	at org.junit.runner.notification.RunNotifier$SafeNotifier.run(RunNotifier.java:61)
+	at org.junit.runner.notification.RunNotifier.fireTestFailures(RunNotifier.java:134)
+	at org.junit.runner.notification.RunNotifier.fireTestFailure(RunNotifier.java:128)
+	at org.junit.internal.runners.model.EachTestNotifier.addFailure(EachTestNotifier.java:23)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:315)
+	at cucumber.runtime.junit.ScenarioOutlineRunner.run(ScenarioOutlineRunner.java:53)
+	at cucumber.runtime.junit.FeatureRunner.runChild(FeatureRunner.java:63)
+	at cucumber.runtime.junit.FeatureRunner.runChild(FeatureRunner.java:18)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:238)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:63)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:236)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:53)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:229)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:309)
+	at cucumber.runtime.junit.FeatureRunner.run(FeatureRunner.java:70)
+	at cucumber.api.junit.Cucumber.runChild(Cucumber.java:93)
+	at cucumber.api.junit.Cucumber.runChild(Cucumber.java:37)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:238)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:63)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:236)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:53)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:229)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:309)
+	at cucumber.api.junit.Cucumber.run(Cucumber.java:98)
+	at org.junit.runners.Suite.runChild(Suite.java:127)
+	at org.junit.runners.Suite.runChild(Suite.java:26)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:238)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:63)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:236)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:53)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:229)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:309)
+	at org.junit.runner.JUnitCore.run(JUnitCore.java:160)
+	at org.junit.runner.JUnitCore.run(JUnitCore.java:138)
+	at org.apache.maven.surefire.junitcore.JUnitCoreWrapper.createRequestAndRun(JUnitCoreWrapper.java:108)
+	at org.apache.maven.surefire.junitcore.JUnitCoreWrapper.executeEager(JUnitCoreWrapper.java:78)
+	at org.apache.maven.surefire.junitcore.JUnitCoreWrapper.execute(JUnitCoreWrapper.java:54)
+	at org.apache.maven.surefire.junitcore.JUnitCoreProvider.invoke(JUnitCoreProvider.java:144)
+	at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:203)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:155)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:103)
+</error>
+  </testcase>
+</testsuite>
